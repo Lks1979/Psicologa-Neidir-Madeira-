@@ -1,0 +1,113 @@
+
+html, body{
+	height: 100%;
+	overflow-x: hidden;    
+}
+.section1{
+    background:url("img/fundo-de-textura-aquarela-roxo-e-rosa_1083-164.jpg") repeat;
+}
+.nav1{
+    background-color:#794889;
+}
+#nav-principal .nav-link {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4em;  
+    color: rgb(250, 220, 234);
+}
+#nav-principal .nav-link:hover{
+    color: #d67ef3;
+}
+.midias-rede-topo{
+    background: #f049b0;
+
+}
+.section2{
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.section-sobre{
+    background: rgb(250, 246, 246);
+}
+.videos{
+    background: url("img/backgroundvideojpg.jpg") repeat;
+}
+.escritorio{
+    background: rgb(253, 240, 253);
+}
+.caixa2{
+    margin-top: 15px;
+}
+.midias-video{      
+    background: #ec87bf;
+    padding: 2px;
+}
+
+@media (max-width: 575px) {
+    .img1{
+        width: 350px;
+    }
+    
+}
+footer{
+    background:rgb(170, 9, 135);    
+}
+/*FIM NAVBAR */
+.cx-topo{
+    background: #794889 repeat;
+}
+@font-face {
+	font-family:"Amanda Black";
+	src: url("font/AnandaBlack.woff");
+}
+@font-face {
+    font-family: "Hug";
+    src: url("font/KGWhatATime-Regular.woff");
+}
+.txt2{
+    font-size: 2em;
+    font-family: "Hug";      
+    color: rgb(25, 25, 56) ;
+}
+.txt-card-title{
+    font-size: 1.8em;
+    color: rgb(150, 105, 47);
+}
+.txt-card{
+    /*font-family: "Hug";*/
+    font-size: 1.6em;
+    color: rgb(31, 22, 83);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.txt-sobre-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(150, 105, 47);
+}
+.txt-sobre{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(4, 5, 37);
+}
+.txt-video{   
+    font-family: "Hug";
+    font-size: 2em;
+    color: rgb(82, 17, 39);
+}
+.txt-footer{
+    font-size: 1.2em;
+}
+.txt-escritorio{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(206, 151, 80);
+}
+
+.btn{
+    margin-right: 15px;
+    
+}
+button{
+    background: violet;
+}
+button:hover{
+    background: rgb(92, 8, 92);
+    color: aliceblue;
+}
+
